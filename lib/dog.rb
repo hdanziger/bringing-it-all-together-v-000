@@ -7,8 +7,7 @@ class Dog
     @breed = breed
   end
 
-  def attributes
-  end
+  
 
 
 
