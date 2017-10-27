@@ -28,7 +28,7 @@ class Dog
    new_dog.id = row[0]
    new_dog.name = row[1]
    new_dog.breed = row[2]
-   new_dog
+   new_dog(id: id, name: name, breed: breed)
  end
 
 end
