@@ -49,11 +49,11 @@ class Dog
    Dog.new(result[0], result[1], result[2])
  end
 
- def self.create (name, breed)
-   dog = Dog.new(name, breed)
-   dog.save
-   dog
- end
+ #def self.create (name, breed)
+  # dog = Dog.new(name, breed)
+   #dog.save
+   #d#og
+ #end
 
  def self.new_from_db(row)
    id = row[0]
